@@ -4,6 +4,7 @@ members = [
     "crates/*",
     "examples/*",
     "kornia-viz",
+    "smolvlm",
     # "kornia-py",
 ]
 exclude = ["kornia-py"]

@@ -1,0 +1,17 @@
+[package]
+name = "smolvlm"
+authors.workspace = true
+categories.workspace = true
+description.workspace = true
+edition.workspace = true
+homepage.workspace = true
+include.workspace = true
+license.workspace = true
+license-file.workspace = true
+readme.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+version.workspace = true
+
+[dependencies]
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.8.3" }
