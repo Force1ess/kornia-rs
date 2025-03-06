@@ -14,4 +14,8 @@ rust-version.workspace = true
 version.workspace = true
 
 [dependencies]
+anyhow = "1.0.97"
 candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.8.3" }
+candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.8.3" }
+hf-hub = "0.4.2"
+tokenizers = "0.21.0"
